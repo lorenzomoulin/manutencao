@@ -33,7 +33,8 @@ cd $HOME
 #check if the user has the scripts, if he doesn't, it clones from git, needs internet connection
 echo Checking files......
 
-[ -e "bin" ] &&  cd bin || mkdir bin || cd bin
+[ -e "bin" ] &&  cd bin || mkdir bin
+cd bin
 
 #LOGOFF=$(find logoff.sh)
 
