@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #script to help people with issues on changing resolution of the monitor
+#resolution setted to 1920x1080
 
 password=""
 device="DVI-I-1-1"
